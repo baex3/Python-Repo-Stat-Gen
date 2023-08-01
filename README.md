@@ -15,6 +15,8 @@ The program can be run on any terminal that has python3 installed or as a bash s
 
 Alternatively the program will run if you download the files after step 1-4 and double-click on 'productivity.py'
 
+7. Verify the Github Actions workflow by clicking 'Actions' at the top of the repo
+
 ## How can the data be efficitently collected?
 I was first stumped by the general question of what constitutes productivity and how would you measure that for a developer. My first thought was to brainstorm with my wife, who is a manager who actually reviews metrics for her employees, so I figured she would have some insight. After talking to her, she described how her company generally generates metrics, by looking at certain objective indicators of productivity such as call time, tasks completed, and other things that are givven to them in a daily spreadsheet. After I was more clear about indicators, the rest was history. I thought about efficiently gathering the data fairly briefly, and immediately thought APIs, either REST or GraphQL. I re-read the prompt and queried the github API both ways, aand of course GraphQL is known for being the more efficient of the two if you want specific data and not to return everything the API has to offer at that endpoint, so I decided GraphQL would be best for this exercise. The only drawback is that the REST API on github seems to offer more data with a simpler query, but I was able to get several relevant indicators using GraphQL without adding fluff, though the exact equivalent of the REST call does not appear to be available yet (if there is even plans for feature parity). 
 
