@@ -3,7 +3,7 @@ GResearch Challenge -
 
 This repo is a response to the need for tracking how the different tools made available to the internal developer community effects productivity and is meant to provide the data necessary to draw proper conclusions and is a starting point. The scope for this project is to gather data with publicly available repos and display them in a digestible manner for both technical and non-technical audiences.
 
-## How to buld and run program
+## How to build and run program
 The program can be run on any terminal that has python3 installed or as a bash script. These will vary based on OS but the order is:
 
 1. install python3
