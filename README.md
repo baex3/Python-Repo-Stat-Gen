@@ -1,4 +1,4 @@
-# Developer_Productivity_proj
+# Github Repo Stat Generator
 
 
 This repo is a made to the display a means for tracking repo activity. The scope for this project is to gather data with publicly available repos and display them in a digestible manner for both technical and non-technical audiences.
