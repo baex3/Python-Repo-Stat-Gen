@@ -144,5 +144,5 @@ def collect_nested_values(data:dict, values_list, current_key=""):
 
 #Would normally use this as an environment variable or store in a gitignore file
 #Token is valid for 7 days and has read-only permissions for public repos following least privileged practices
-gitHubAPItkn = "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"
+gitHubAPItkn = "<insert user token here>"
 gitHubGraphQLAPI = "https://api.github.com/graphql"
