@@ -4,7 +4,7 @@
 This repo is a made to the display a means for tracking repo activity. The scope for this project is to gather data with publicly available repos and display them in a digestible manner for both technical and non-technical audiences.
 
 ## How to build and run program
-The program can be run on any terminal that has python3 installed or as a bash script. These will vary based on OS but the order is:
+The constants.py program will need to be updated with your valid API token for GitHub in order to not be automatically throttled by the GitHub GraphQL API. The program can be run on any terminal that has python3 installed or as a bash script. These will vary based on OS but the order is:
 
 1. install python3
 2. install pip
